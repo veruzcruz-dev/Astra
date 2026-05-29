@@ -1,0 +1,150 @@
+.section {
+  padding: 7rem 0;
+  border-top: 1px solid var(--border);
+}
+
+.eyebrow {
+  font-size: 0.7rem;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--gold);
+  text-align: center;
+  margin-bottom: 1rem;
+  opacity: 0.85;
+}
+
+.heading {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  font-weight: 300;
+  color: var(--text);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.heading em {
+  font-style: italic;
+  color: var(--gold-light);
+}
+
+.intro {
+  text-align: center;
+  color: var(--text-muted);
+  max-width: 560px;
+  margin: 0 auto 4rem;
+  font-size: 0.95rem;
+  line-height: 1.85;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5px;
+  border: 1.5px solid var(--border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.card {
+  background: var(--deep);
+  padding: 2.2rem 2rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  transition: background 0.3s;
+}
+
+.card:hover {
+  background: var(--card);
+}
+
+.featured {
+  background: var(--card);
+  outline: 1px solid rgba(201, 169, 110, 0.35);
+  outline-offset: -1px;
+  z-index: 1;
+}
+
+.badge {
+  position: absolute;
+  top: 1.4rem;
+  right: 1.4rem;
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gold);
+  border: 1px solid rgba(201, 169, 110, 0.4);
+  padding: 0.25rem 0.65rem;
+  border-radius: 2px;
+}
+
+.symbol {
+  font-size: 1.8rem;
+  color: var(--gold);
+  opacity: 0.75;
+  margin-bottom: 0.3rem;
+  line-height: 1;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: 1.45rem;
+  font-weight: 400;
+  color: var(--text);
+}
+
+.tagline {
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--mist);
+  margin-bottom: 0.4rem;
+}
+
+.description {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  line-height: 1.75;
+  flex: 1;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.8rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+
+.duration {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  letter-spacing: 0.05em;
+}
+
+.price {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--gold);
+}
+
+.btn {
+  display: inline-block;
+  font-size: 0.73rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold);
+  padding: 0.6rem 0;
+  margin-top: 0.2rem;
+  border-bottom: 1px solid rgba(201, 169, 110, 0.3);
+  transition: border-color 0.2s, letter-spacing 0.2s;
+  align-self: flex-start;
+}
+
+.btn:hover {
+  border-color: var(--gold);
+  letter-spacing: 0.18em;
+}

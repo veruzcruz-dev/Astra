@@ -1,0 +1,90 @@
+.section {
+  padding: 7rem 0;
+  border-top: 1px solid var(--border);
+}
+
+.eyebrow {
+  font-size: 0.7rem;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--gold);
+  text-align: center;
+  margin-bottom: 1rem;
+  opacity: 0.85;
+}
+
+.heading {
+  font-family: var(--font-display);
+  font-size: clamp(1.8rem, 3vw, 2.8rem);
+  font-weight: 300;
+  color: var(--text);
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.heading em {
+  font-style: italic;
+  color: var(--gold-light);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background: var(--deep);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 2rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  transition: border-color 0.3s;
+}
+
+.card:hover {
+  border-color: rgba(201, 169, 110, 0.4);
+}
+
+.quote {
+  font-family: var(--font-display);
+  font-size: 4rem;
+  color: var(--gold);
+  opacity: 0.2;
+  line-height: 0.8;
+  position: absolute;
+  top: 1.2rem;
+  left: 1.5rem;
+}
+
+.text {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  line-height: 1.85;
+  font-style: italic;
+  padding-top: 1.5rem;
+  flex: 1;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+
+.name {
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--text);
+  letter-spacing: 0.04em;
+}
+
+.sign {
+  font-size: 0.78rem;
+  color: var(--mist);
+}
