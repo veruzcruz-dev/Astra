@@ -5,7 +5,7 @@ const testimonials = [
     quote:
       "Fue una sesión que me cambió la perspectiva completamente. Por primera vez entendí por qué ciertos patrones se repetían en mi vida. Salí con mucha claridad.",
     name: "Valentina R.",
-    sign: "Sol en Escorpio",
+    sign: "Sol en Acuario",
   },
   {
     quote:
