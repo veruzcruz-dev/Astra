@@ -10,7 +10,7 @@ export default function Hero() {
         <p className={styles.eyebrow}>✦ &nbsp;Astrología Consciente&nbsp; ✦</p>
         <h1 className={styles.title}>
           Los astros hablan.<br />
-          <em>¿Estás lista para escuchar?</em>
+          <em>¿Están listos para escuchar?</em>
         </h1>
         <p className={styles.subtitle}>
           Lecturas personalizadas de carta natal, tránsitos y ciclos lunares
